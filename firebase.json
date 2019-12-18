@@ -1,16 +1,8 @@
 {
   "hosting": {
+    "site": "https://sufragio.azurewebsites.net/",
+    "public": "public",
     "public": "y",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
   }
 }
